@@ -20,9 +20,10 @@ Debido al tamaño de los archivos (limitaciones de GitHub), esta carpeta no cont
 1. Descargue los archivos pesados desde el siguiente repositorio en la nube:
    👉 **[Clic aquí para acceder a Google Drive](https://drive.google.com/drive/folders/1fvW1JFfZM1tjaLQHEzeKaqh4McILtFRQ?usp=sharing)**
 
-3. Descomprima/copie los archivos descargados dentro de las carpetas correspondientes (`1_Source`, `2_Processing`, o `3_Results`) en su copia local de este repositorio.
+3. Descomprima/copie los archivos descargados dentro de las carpetas correspondientes (`1_Sources`, `2_Processing`, o `3_Results`) en su copia local de este repositorio.
 
 4. Asegúrese de mantener los nombres de archivo originales para que los scripts de R los reconozcan.
+
 
 
 
