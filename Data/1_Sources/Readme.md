@@ -6,7 +6,7 @@ Este directorio (`/Data/1_Sources/`) almacena los insumos necesarios para la cor
 
 | Carpeta | Descripción | Contenido Típico |
 | :--- | :--- | :--- |
-| **`1_Source`** | Datos crudos de origen | Encuestas (DANE, Movilidad), Shapes, CSVs originales. |
+| **`1_Source`** | Datos fuente del Proyecto | Encuestas (DANE, Movilidad), Shapes, CSVs originales. |
 
 ---
 
@@ -20,4 +20,5 @@ Debido al tamaño de los archivos (limitaciones de GitHub), esta carpeta no cont
 2. Descomprima/copie los archivos descargados dentro de la carpeta correspondiente (`1_Source`) en su copia local de este repositorio.
 
 3. Asegúrese de mantener los nombres de archivo originales para que los scripts de R los reconozcan y haya una correcta ejecución del código.
+
 
