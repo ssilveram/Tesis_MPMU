@@ -14,7 +14,7 @@ Este directorio (`/Data`) almacena los insumos y resultados del proyecto, estruc
 
 ### 📥 Instrucciones para la Reproducibilidad
 
-Esta carpeta no contiene archivos alojados en este repositorio. Los archivos fuente, han sido alojados en una carpeta externa en Google Drive.
+Debido al tamaño de los archivos (limitaciones de GitHub), esta carpeta no contiene archivos alojados en este repositorio. Los archivos fuente, han sido alojados en una carpeta externa en Google Drive.
 
 **Para ejecutar el código correctamente:**
 1. Descargue los archivos pesados desde el siguiente repositorio en la nube:
@@ -23,5 +23,6 @@ Esta carpeta no contiene archivos alojados en este repositorio. Los archivos fue
 3. Descomprima/copie los archivos descargados dentro de las carpetas correspondientes (`1_Source`, `2_Processing`, o `3_Results`) en su copia local de este repositorio.
 
 4. Asegúrese de mantener los nombres de archivo originales para que los scripts de R los reconozcan.
+
 
 
