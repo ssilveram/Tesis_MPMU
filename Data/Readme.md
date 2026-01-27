@@ -7,8 +7,8 @@ Este directorio (`/Data`) almacena los insumos y resultados del proyecto, estruc
 | Carpeta | Descripción | Contenido Típico |
 | :--- | :--- | :--- |
 | **`1_Source`** | Datos crudos de origen | Encuestas (DANE), Shapes, CSVs originales. |
-| **`2_Processing`** | Datos intermedios | Archivos `.rds`, tablas limpias, uniones espaciales. |
-| **`3_Results`** | Salidas finales | Mapas (`.png`, `.pdf`), Gráficas y Tablas resumen. |
+| **`2_Processing`** | Datos intermedios | Archivos `.gpkg`, `.csv`, tablas limpias, uniones espaciales. |
+| **`3_Results`** | Salidas finales | Mapas (`.png`), Gráficas (`.png`) y Tablas resumen. |
 
 ---
 
@@ -19,5 +19,7 @@ Debido al tamaño de los archivos (limitaciones de GitHub), este repositorio sol
 **Para ejecutar el código correctamente:**
 1. Descargue los archivos pesados desde el siguiente repositorio en la nube:
    👉 **[Clic aquí para acceder a Google Drive](URL_AQUI)**
-2. Descomprima/copie los archivos descargados dentro de las carpetas correspondientes (`1_Source`, etc.) en su copia local de este repositorio.
-3. Asegúrese de mantener los nombres de archivo originales para que los scripts de R los reconozcan.
+
+3. Descomprima/copie los archivos descargados dentro de las carpetas correspondientes (`1_Source`, etc.) en su copia local de este repositorio.
+
+4. Asegúrese de mantener los nombres de archivo originales para que los scripts de R los reconozcan.
