@@ -1,7 +1,7 @@
 
 # Reproducibilidad del proyecto
 
-Este directorio (`/Data/`) almacena los insumos y resultados del proyecto, estructurados según el flujo de trabajo en R:
+Este directorio (`./Data/`) almacena los insumos y resultados del proyecto, estructurados según el flujo de trabajo en R:
 
 | Carpeta | Descripción | Contenido Típico |
 | :--- | :--- | :--- |
