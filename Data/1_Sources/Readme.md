@@ -16,10 +16,11 @@ Debido al tamaño de los archivos (limitaciones de GitHub), esta carpeta no cont
 
 **Para ejecutar el código correctamente:**
 1. Descargue los archivos desde el siguiente repositorio en la nube:
-   👉 **[Clic aquí para acceder a Google Drive](https://drive.google.com/drive/folders/1fvW1JFfZM1tjaLQHEzeKaqh4McILtFRQ?usp=sharing)**
+   👉 **[Clic aquí para acceder a Google Drive](https://drive.google.com/drive/folders/1fvW1JFfZM1tjaLQHEzeKaqh4McILtFRQ?usp=sharing)** (Es necesario solititar permisos para ver).
 2. Descomprima/copie los archivos descargados dentro de la carpeta correspondiente (`1_Sources`) en su copia local de este repositorio.
 
 3. Asegúrese de mantener los nombres de archivo originales para que los scripts de R los reconozcan y haya una correcta ejecución del código.
+
 
 
 
