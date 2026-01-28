@@ -28,7 +28,7 @@
      width="22%">
   <img src="./assets/MNZ_Scn7_Scn1_30min_Ferreo_2160x3840.png"
      alt="Accessibility Map Scn7 - 30 min - Ferreo"
-     width="22%">
+     width="25%">
 </p>
 
 ---
