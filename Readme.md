@@ -81,6 +81,6 @@ Si utiliza este código o metodología para su investigación, por favor cite:
 Silvera, Santiago (2026). _Transformando la Movilidad Urbana de Bogotá: Implementación e Integración del Sistema de Transporte Masivo Férreo y la Ciudad de Proximidad - Escala de Unidad de Planeación Local -_. [Technische Universität Berlin - Universidad de Buenos Aires]. Repositorio GitHub: https://github.com/ssilveram/Tesis_MPMU
 
 ## 📜 Licencia
-Este proyecto está bajo la Licencia CC BY-NC 4.0 (Uso Académico y No Comercial). Vea el archivo Licence.md para más detalles.
-Desarrollado como parte de la Maestría Dual en Planificación y Movilidad Urbana de la Technische Universität Berlin y la Universidad de Buenos Aires.
+Este proyecto está bajo la Licencia CC BY-NC 4.0 (Uso Académico y No Comercial). Vea el archivo **[Licence.md](./Licence.md)** para más detalles.
+Desarrollado como parte de la Maestría Dual en Planificación y Movilidad Urbana de la **[Technische Universität Berlin](https://www.tu.berlin)** y la **[Universidad de Buenos Aires](https://www.uba.ar)**.
 
