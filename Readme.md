@@ -6,7 +6,7 @@
 ![Badge de Licencia](https://img.shields.io/badge/License-CC%20BY--NC%204.0-lightgrey)
 
 > **Repositorio oficial de código para la Tesis de Maestría:**
-> *"Transformando la Movilidad Urbana de Bogotá: Implementación e Integración del Sistema de Transporte Masivo Férreo y la Ciudad de Proximidad - Escala de Unidad de Planeación Local -"*
+> *"Transformando la Movilidad Urbana de Bogotá: Implementación e Integración del Sistema de Transporte Masivo Férreo y la Ciudad de Proximidad - Escala de Unidad de Planeación Local -" | Santiago Silvera | 2026*
 
 <p align="center">
   <img src="./Data/3_Results/8_Red_Ferrea/Mapa_Trazado_Portada.png" alt="Mapa de Accesibilidad y Trazado de Red Férrea" style="max-width: 50%; height: auto;">
