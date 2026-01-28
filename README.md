@@ -12,7 +12,7 @@
 > *"Transformando la Movilidad Urbana de Bogotá: Implementación e Integración del Sistema de Transporte Masivo Férreo y la Ciudad de Proximidad - Escala de Unidad de Planeación Local -"*
 
 <p align="center">
-  <img src="./Data/3_Results/8_Red_Ferrea/Mapa_Trazado_Portada.png" alt="Mapa de Accesibilidad y Trazado de Red Férrea" style="max-width: 100%; height: auto;">
+  <img src="../../Data/3_Results/8_Red_Ferrea/Mapa_Trazado_Portada.png" alt="Mapa de Accesibilidad y Trazado de Red Férrea" style="max-width: 100%; height: auto;">
 </p>
 
 ![Banner del Proyecto](ruta/a/tu/imagen_destacada.png)
