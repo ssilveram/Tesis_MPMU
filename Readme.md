@@ -13,7 +13,7 @@
 > **Santiago Silvera Malagon | © 2026**
 >
 > **Official code repository for the Master’s Thesis:**  
-> *“Transforming Urban Mobility in Bogotá: Implementation and Integration of the Rail-Based Mass Transit System and the Proximity City – Local Planning Unit Scale”*
+> *“Transforming Urban Mobility in Bogotá: Implementation and Integration of the Rail-Based Mass Transit System and the Proximity City – Local Planning Unit Scale”*  
 > **Santiago Silvera Malagon | © 2026**
 
 <p align="center">
