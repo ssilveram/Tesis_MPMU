@@ -17,7 +17,18 @@
 > **Santiago Silvera Malagon | © 2026**
 
 <p align="center">
-  <img src="./Data/3_Results/8_Red_Ferrea/Mapa_Trazado_Portada.png" alt="Accessibility Map and Rail Network Alignment" style="max-width: 50%; height: auto;">
+  <img src="../../assets/MNZ_Scn2_Scn1_15min_2160x3840.png"
+     alt="Accessibility Map Scn2 - 15 min"
+     width="22%">
+  <img src="../../assets/MNZ_Scn3_Scn1_30min_2160x3840.png"
+     alt="Accessibility Map Scn3 - 30 min"
+     width="22%">
+  <img src="../../assets/MNZ_Scn7_Scn1_30min_2160x3840.png"
+     alt="Accessibility Map Scn7 - 30 min"
+     width="22%">
+  <img src="../../assets/MNZ_Scn7_Scn1_30min_Ferreo_2160x3840.png"
+     alt="Accessibility Map Scn7 - 30 min - Ferreo"
+     width="25%">
 </p>
 
 ---
@@ -138,3 +149,4 @@ See **[LICENSE.md](./LICENSE.md)** for full details.
 
 Desarrollado como parte de la Maestría Dual en Planificación y Movilidad Urbana de la  
 **[Technische Universität Berlin](https://www.tu.berlin)** y la **[Universidad de Buenos Aires](https://www.uba.ar)**.
+
