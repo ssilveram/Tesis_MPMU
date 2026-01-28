@@ -1,8 +1,6 @@
-# Transformando la Movilidad Urbana de Bogotá: Implementación e Integración del Sistema de Transporte Masivo Férreo y la Ciudad de Proximidad  
-## Escala de Unidad de Planeación Local (UPL) – 🚈🏙️
+# Transformando la Movilidad Urbana de Bogotá: Implementación e Integración del Sistema de Transporte Masivo Férreo y la Ciudad de Proximidad - Escala de Unidad de Planeación Local (UPL) – 🚈🏙️
 
-# Transforming Urban Mobility in Bogotá: Implementation and Integration of the Rail-Based Mass Transit System and the Proximity City  
-## Local Planning Unit (UPL) Scale – 🚈🏙️
+# Transforming Urban Mobility in Bogotá: Implementation and Integration of the Rail-Based Mass Transit System and the Proximity City - Local Planning Unit (UPL) Scale – 🚈🏙️
 
 ![Badge de R](https://img.shields.io/badge/Language-R-blue)
 ![Badge de Estado](https://img.shields.io/badge/Status-Completed-green)
