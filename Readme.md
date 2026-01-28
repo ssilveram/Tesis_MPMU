@@ -18,16 +18,16 @@
 
 <p align="center">
   <img src="./assets/MNZ_Scn2_Scn1_15min_2160x3840.png"
-     alt="Accessibility Map and Rail Network Alignment"
+     alt="Accessibility Map Scn2 - 15 min"
      width="22%">
-  <img src="./assets/MNZ_Scn2_Scn1_30min_2160x3840.png"
-     alt="Accessibility Map and Rail Network Alignment"
+  <img src="./assets/MNZ_Scn3_Scn1_30min_2160x3840.png"
+     alt="Accessibility Map Scn3 - 30 min"
      width="22%">
   <img src="./assets/MNZ_Scn7_Scn1_30min_2160x3840.png"
-     alt="Accessibility Map and Rail Network Alignment"
+     alt="Accessibility Map Scn7 - 30 min"
      width="22%">
   <img src="./assets/MNZ_Scn7_Scn1_30min_Ferreo_2160x3840.png"
-     alt="Accessibility Map and Rail Network Alignment"
+     alt="Accessibility Map Scn7 - 30 min - Ferreo"
      width="22%">
 </p>
 
