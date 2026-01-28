@@ -33,26 +33,26 @@ El código está organizado secuencialmente para garantizar la reproducibilidad 
 
 | Script | Descripción |
 | :--- | :--- |
-| **`0_Initialization`** | Limpieza y estandarización de datos espaciales (Manzanas, UPLs, Red Vial). |
-| **`1_Empty_Shapes`** | Limpieza y estandarización de datos espaciales (Manzanas, UPLs, Red Vial). |
-| **`2_Population`** | Procesamiento de datos censales y proyecciones de densidad poblacional. |
-| **`3_EM2023`** | Análisis de la Encuesta de Movilidad 2023 (Patrones de viaje y reparto modal). |
-| **`4_x_Amenities`** | Inventario, clasificación y georreferenciación de equipamientos urbanos. |
-| **`5_0_GTFS_Generator`** | **[Key Tool]** Algoritmo para generar archivos GTFS sintéticos de las líneas de metro y tren proyectadas. |
-| **`6_x_Accessibility`** | Ejecución del motor `r5r` para el cálculo de matrices de tiempo (Línea Base y. Escenarios Futuros). |
-| **`7_ScoreCard`** | Cálculo del Índice HQSL y generación ScoreCards de diagnóstico (Gráficos de Radar, mapas, etc.) por UPL. |
-| **`8_Red_Ferrea`** | Generación de visualizaciones de la red férrea. |
-| **`9_Misc`** | Generación de gráficos auxilares. |
+| **`0_Initialization.R`** | Instala/Carga las librerías y funciones necesarias para la correcta ejecución de los scripts |
+| **`1_Empty_Shapes.R`** | Limpieza y estandarización de datos espaciales (Manzanas, UPLs, etc.) |
+| **`2_Population.R`** | Procesamiento de datos censales y proyecciones de densidad poblacional |
+| **`3_EM2023.R`** | Análisis de la Encuesta de Movilidad 2023 (Patrones de viaje, reparto modal, etc.) |
+| **`4_x_Amenities.R`** | Inventario, clasificación y georreferenciación de equipamientos urbanos |
+| **`5_0_GTFS_Generator.R`** | **[Key Tool]** Algoritmo para generar archivos GTFS sintéticos de las líneas de metro y tren proyectadas |
+| **`6_x_Accessibility.R`** | Ejecución del motor `r5r` para el cálculo de matrices de tiempo (Línea Base y Escenarios Futuros) |
+| **`7_ScoreCard.R`** | Cálculo del Índice HQSL y generación ScoreCards de diagnóstico (Gráficos de Radar, mapas, etc.) por UPL |
+| **`8_Red_Ferrea.R`** | Generación de visualizaciones de la red férrea |
+| **`9_Misc.R`** | Generación de gráficos auxilares |
 
-## Estructura de carpetas archivos fuente, de procesamiento y resultaos
+## Estructura de carpetas de archivos fuente, de procesamiento y de resultados
 
-Este directorio (`./Data/`) almacena los insumos y resultados del proyecto, estructurados según el flujo de trabajo en R:
+Este directorio (`.R/Data/`) almacena los insumos y resultados del proyecto, estructurados según el flujo de trabajo en R:
 
 | Carpeta | Descripción | Contenido Típico |
 | :--- | :--- | :--- |
-| **`./Data/1_Sources/`** | Datos fuente del Proyecto | Encuestas (DANE, Movilidad), Shapes, CSVs originales. |
-| **`./Data/2_Processing/`** | Datos intermedios | Archivos `.gpkg`, `.csv`, tablas limpias, uniones espaciales. |
-| **`./Data/3_Results/`** | Salidas finales | Mapas (`.png`), Gráficas (`.png`) y Tablas resumen. |
+| **`./R/Data/1_Sources/`** | Datos fuente del Proyecto | Encuestas (DANE, Movilidad), Shapes, CSVs originales. |
+| **`./R/Data/2_Processing/`** | Datos intermedios | Archivos `.gpkg`, `.csv`, tablas limpias, uniones espaciales. |
+| **`./R/Data/3_Results/`** | Salidas finales | Mapas (`.png`), Gráficas (`.png`) y Tablas resumen. |
 
 ### 📥 Instrucciones para la Reproducibilidad
 
