@@ -20,6 +20,12 @@
   <img src="./R/Data/3_Results/8_Red_Ferrea/Mapa_Trazado_Portada.png"
      alt="Accessibility Map and Rail Network Alignment"
      width="25%">
+  <img src="./R/Data/3_Results/8_Red_Ferrea/Mapa_Trazado_Portada.png"
+     alt="Accessibility Map and Rail Network Alignment"
+     width="25%">
+  <img src="./R/Data/3_Results/8_Red_Ferrea/Mapa_Trazado_Portada.png"
+     alt="Accessibility Map and Rail Network Alignment"
+     width="25%">
 </p>
 
 ---
