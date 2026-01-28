@@ -5,7 +5,7 @@
 ![Badge de Estado](https://img.shields.io/badge/Status-Completed-green)
 ![Badge de Licencia](https://img.shields.io/badge/License-CC%20BY--NC%204.0-lightgrey)
 
-> **Repositorio oficial de código para la Tesis de Maestría:\n **
+> **Repositorio oficial de código para la Tesis de Maestría:**
 > *"Transformando la Movilidad Urbana de Bogotá: Implementación e Integración del Sistema de Transporte Masivo Férreo y la Ciudad de Proximidad - Escala de Unidad de Planeación Local -"*
 
 <p align="center">
@@ -13,7 +13,7 @@
 </p>
 
 ## 📄 Descripción
-Este repositorio contiene el flujo de trabajo computacional completo para modelar, simular y evaluar el impacto en la accesibilidad y el Índice de Alta Calidad de Vida Social (derivado del concepto de la "Ciudad de los 15 minutos"), como resultado de la implementación de 6 escenarios futuros respecto al estado actual de la ciudad (Escenario base):
+Este repositorio contiene el flujo de trabajo computacional completo para modelar, simular y evaluar el impacto en la accesibilidad y el Índice de Alta Calidad de Vida Social (derivado del concepto de la "Ciudad de los 15 minutos"), como resultado de la implementación de 6 escenarios futuros respecto al estado actual (escenario base) de la ciudad de Bogotá:
 
 | Escenario | Descripción |
 | :--- | :--- |
