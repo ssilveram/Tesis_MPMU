@@ -1,8 +1,5 @@
 
-# Transformando la Movilidad Urbana de Bogotá:
-# Implementación e Integración del Sistema de Transporte
-# Masivo Férreo y la Ciudad de Proximidad
-# - Escala de Unidad de Planeación Local - 🚈🏙️
+# Transformando la Movilidad Urbana de Bogotá: Implementación e Integración del Sistema de Transporte Masivo Férreo y la Ciudad de Proximidad - Escala de Unidad de Planeación Local - 🚈🏙️
 
 ![Badge de R](https://img.shields.io/badge/Language-R-blue)
 ![Badge de Estado](https://img.shields.io/badge/Status-Completed-green)
@@ -12,23 +9,21 @@
 > *"Transformando la Movilidad Urbana de Bogotá: Implementación e Integración del Sistema de Transporte Masivo Férreo y la Ciudad de Proximidad - Escala de Unidad de Planeación Local -"*
 
 <p align="center">
-  <img src="../../Data/3_Results/8_Red_Ferrea/Mapa_Trazado_Portada.png" alt="Mapa de Accesibilidad y Trazado de Red Férrea" style="max-width: 100%; height: auto;">
+  <img src="./Data/3_Results/8_Red_Ferrea/Mapa_Trazado_Portada.png" alt="Mapa de Accesibilidad y Trazado de Red Férrea" style="max-width: 50%; height: auto;">
 </p>
-
-![Banner del Proyecto](ruta/a/tu/imagen_destacada.png)
-*(Sugerencia: Coloca aquí una imagen comparativa de las Isocronas o el Mapa del Índice HQSL)*
 
 ## 📄 Descripción
 Este repositorio contiene el flujo de trabajo computacional completo para modelar, simular y evaluar el impacto en la accesibilidad y el Índice de Alta Calidad de Vida Social, como resultado de la implementación de 6 escenarios futuros respecto al estado actual de la ciudad (Excenario base):
 
 | Escenario | Descripción |
-| Escenario 1 | Estado actual (Base) |
-| Escenario 2 | Escenario 1 + PLMB |
-| Escenario 3 | Escenario 2 + Implantación de equipamientos en inmediaciones de las estaciones de la PLMB |
-| Escenario 4 | Escenario 2 + Implantación plena de equipamientos a nivel de UPL |
-| Escenario 5 | Escenario 1 + Red Férrea |
-| Escenario 6 | Escenario 5 + Implantación de equipamientos en inmediaciones de las estaciones de la Red Férrea |
-| Escenario 7 | Escenario 5 + Implantación plena de equipamientos a nivel de UPL |
+| :--- | :--- |
+| **Escenario 1** | Estado actual (Base) |
+| **Escenario 2** | Escenario 1 + PLMB |
+| **Escenario 3** | Escenario 2 + Implantación de equipamientos en inmediaciones de las estaciones de la PLMB |
+| **Escenario 4** | Escenario 2 + Implantación plena de equipamientos a nivel de UPL |
+| **Escenario 5** | Escenario 1 + Red Férrea |
+| **Escenario 6** | Escenario 5 + Implantación de equipamientos en inmediaciones de las estaciones de la Red Férrea |
+| **Escenario 7** | Escenario 5 + Implantación plena de equipamientos a nivel de UPL |
 
 El proyecto utiliza **R** y el motor de enrutamiento **R5 (r5r)** para calcular matrices de tiempos de viaje multimodales y generar el índice **HQSL (High Quality Social Life)**.
 
@@ -38,16 +33,16 @@ El código está organizado secuencialmente para garantizar la reproducibilidad 
 
 | Script | Descripción |
 | :--- | :--- |
-| **`Script 0_Initialization`** | Limpieza y estandarización de datos espaciales (Manzanas, UPLs, Red Vial). |
-| **`Script 1_Empty_Shapes`** | Limpieza y estandarización de datos espaciales (Manzanas, UPLs, Red Vial). |
-| **`Script 2_Population`** | Procesamiento de datos censales y proyecciones de densidad poblacional. |
-| **`Script 3_EM2023`** | Análisis de la Encuesta de Movilidad 2023 (Patrones de viaje y reparto modal). |
-| **`Script 4_x_Amenities`** | Inventario, clasificación y georreferenciación de equipamientos urbanos. |
-| **`Script 5_0_GTFS_Generator`** | **[Key Tool]** Algoritmo para generar archivos GTFS sintéticos de las líneas de metro y tren proyectadas. |
-| **`Script 6_x_Accessibility`** | Ejecución del motor `r5r` para el cálculo de matrices de tiempo (Línea Base y. Escenarios Futuros). |
-| **`Script 7_ScoreCard`** | Cálculo del Índice HQSL y generación ScoreCards de diagnóstico (Gráficos de Radar, mapas, etc.) por UPL. |
-| **`Script 8_Red_Ferrea`** | Generación de visualizaciones de la red férrea. |
-| **`Script 9_Misc`** | Generación de gráficos auxilares. |
+| **`0_Initialization`** | Limpieza y estandarización de datos espaciales (Manzanas, UPLs, Red Vial). |
+| **`1_Empty_Shapes`** | Limpieza y estandarización de datos espaciales (Manzanas, UPLs, Red Vial). |
+| **`2_Population`** | Procesamiento de datos censales y proyecciones de densidad poblacional. |
+| **`3_EM2023`** | Análisis de la Encuesta de Movilidad 2023 (Patrones de viaje y reparto modal). |
+| **`4_x_Amenities`** | Inventario, clasificación y georreferenciación de equipamientos urbanos. |
+| **`5_0_GTFS_Generator`** | **[Key Tool]** Algoritmo para generar archivos GTFS sintéticos de las líneas de metro y tren proyectadas. |
+| **`6_x_Accessibility`** | Ejecución del motor `r5r` para el cálculo de matrices de tiempo (Línea Base y. Escenarios Futuros). |
+| **`7_ScoreCard`** | Cálculo del Índice HQSL y generación ScoreCards de diagnóstico (Gráficos de Radar, mapas, etc.) por UPL. |
+| **`8_Red_Ferrea`** | Generación de visualizaciones de la red férrea. |
+| **`9_Misc`** | Generación de gráficos auxilares. |
 
 ## Estructura de carpetas archivos fuente, de procesamiento y resultaos
 
