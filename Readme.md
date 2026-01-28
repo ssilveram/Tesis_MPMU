@@ -1,87 +1,142 @@
+# Transformando la Movilidad Urbana de Bogotá: Implementación e Integración del Sistema de Transporte Masivo Férreo y la Ciudad de Proximidad  
+## Escala de Unidad de Planeación Local (UPL) – 🚈🏙️
 
-# Transformando la Movilidad Urbana de Bogotá: Implementación e Integración del Sistema de Transporte Masivo Férreo y la Ciudad de Proximidad - Escala de Unidad de Planeación Local - 🚈🏙️
+# Transforming Urban Mobility in Bogotá: Implementation and Integration of the Rail-Based Mass Transit System and the Proximity City  
+## Local Planning Unit (UPL) Scale – 🚈🏙️
 
 ![Badge de R](https://img.shields.io/badge/Language-R-blue)
 ![Badge de Estado](https://img.shields.io/badge/Status-Completed-green)
 ![Badge de Licencia](https://img.shields.io/badge/License-CC%20BY--NC%204.0-lightgrey)
 
-> **Repositorio oficial de código para la Tesis de Maestría:**
-> *"Transformando la Movilidad Urbana de Bogotá: Implementación e Integración del Sistema de Transporte Masivo Férreo y la Ciudad de Proximidad - Escala de Unidad de Planeación Local -"*,
-> Santiago Silvera M. | ©2026
+---
+
+> **Repositorio oficial de código para la Tesis de Maestría:**  
+> *“Transformando la Movilidad Urbana de Bogotá: Implementación e Integración del Sistema de Transporte Masivo Férreo y la Ciudad de Proximidad – Escala de Unidad de Planeación Local”*  
+> **Santiago Silvera Malagon | © 2026**
+>
+> **Official code repository for the Master’s Thesis:**  
+> *“Transforming Urban Mobility in Bogotá: Implementation and Integration of the Rail-Based Mass Transit System and the Proximity City – Local Planning Unit Scale”*
+> **Santiago Silvera Malagon | © 2026**
 
 <p align="center">
-  <img src="./Data/3_Results/8_Red_Ferrea/Mapa_Trazado_Portada.png" alt="Mapa de Accesibilidad y Trazado de Red Férrea" style="max-width: 50%; height: auto;">
+  <img src="./Data/3_Results/8_Red_Ferrea/Mapa_Trazado_Portada.png" alt="Accessibility Map and Rail Network Alignment" style="max-width: 50%; height: auto;">
 </p>
 
-## 📄 Descripción
-Este repositorio contiene el flujo de trabajo computacional completo para modelar, simular y evaluar el impacto en la accesibilidad y el Índice de Alta Calidad de Vida Social (derivado del concepto de la "Ciudad de los 15 minutos"), como resultado de la implementación de 6 escenarios futuros respecto al estado actual (escenario base) de la ciudad de Bogotá:
+---
 
-| Escenario | Descripción |
+## 📄 Descripción | Description
+
+### Español
+Este repositorio contiene el flujo de trabajo computacional completo para modelar, simular y evaluar el impacto en la accesibilidad y el **Índice de Alta Calidad de Vida Social (HQSL)** —derivado del concepto de la *Ciudad de los 15 minutos*— como resultado de la implementación de **siete escenarios futuros**, comparados con el estado actual (escenario base) de la ciudad de Bogotá.
+
+### English
+This repository contains the complete computational workflow to model, simulate, and assess the impact on accessibility and the **High Quality Social Life Index (HQSL)** —derived from the *15-minute city* concept— resulting from the implementation of **seven future scenarios**, compared against the current situation (baseline scenario) of the city of Bogotá.
+
+---
+
+### Escenarios | Scenarios
+
+| Scenario | Description |
 | :--- | :--- |
-| **Escenario 1** | Estado actual (Base) |
-| **Escenario 2** | Escenario 1 + PLMB |
-| **Escenario 3** | Escenario 2 + Implantación de equipamientos en inmediaciones de las estaciones de la PLMB |
-| **Escenario 4** | Escenario 2 + Implantación plena de equipamientos a nivel de UPL |
-| **Escenario 5** | Escenario 1 + Red Férrea |
-| **Escenario 6** | Escenario 5 + Implantación de equipamientos en inmediaciones de las estaciones de la Red Férrea |
-| **Escenario 7** | Escenario 5 + Implantación plena de equipamientos a nivel de UPL |
+| **Scenario 1** | Current situation (Baseline) |
+| **Scenario 2** | Scenario 1 + Bogotá Metro First Line (PLMB) |
+| **Scenario 3** | Scenario 2 + Amenities implementation around PLMB stations |
+| **Scenario 4** | Scenario 2 + Full amenities implementation at UPL scale |
+| **Scenario 5** | Scenario 1 + Regional Rail Network |
+| **Scenario 6** | Scenario 5 + Amenities implementation around rail stations |
+| **Scenario 7** | Scenario 5 + Full amenities implementation at UPL scale |
 
-El proyecto utiliza **R** y el motor de enrutamiento **R5 (r5r)** para calcular matrices de tiempos de viaje multimodales y generar el índice **HQSL (High Quality Social Life)**.
+El proyecto utiliza **R** y el motor de enrutamiento **R5 (r5r)** para calcular matrices de tiempos de viaje multimodales y generar el índice **HQSL**.
 
-## 📂 Estructura del Repositorio de Scripts
+The project uses **R** and the **R5 routing engine (r5r)** to compute multimodal travel time matrices and generate the **HQSL index**.
 
-El código está organizado secuencialmente para garantizar la reproducibilidad de los resultados:
+---
 
-| Script | Descripción |
+## 📂 Estructura de Scripts | Scripts Structure
+
+### Español
+El código está organizado de forma secuencial para garantizar la reproducibilidad de los resultados:
+
+### English
+The code is sequentially organized to ensure full reproducibility of results:
+
+| Script | Description |
 | :--- | :--- |
-| **`0_Initialization.R`** | Instala/Carga las librerías y funciones necesarias para la correcta ejecución de los scripts |
-| **`1_Empty_Shapes.R`** | Limpieza y estandarización de datos espaciales (Manzanas, UPLs, etc.) |
-| **`2_Population.R`** | Procesamiento de datos censales y proyecciones de densidad poblacional |
-| **`3_EM2023.R`** | Análisis de la Encuesta de Movilidad 2023 (Patrones de viaje, reparto modal, etc.) |
-| **`4_x_Amenities.R`** | Inventario, clasificación y georreferenciación de equipamientos urbanos |
-| **`5_0_GTFS_Generator.R`** | **[Key Tool]** Algoritmo para generar archivos GTFS sintéticos de las líneas de metro y tren proyectadas |
-| **`6_x_Accessibility.R`** | Ejecución del motor `r5r` para el cálculo de matrices de tiempo (Línea Base y Escenarios Futuros) |
-| **`7_ScoreCard.R`** | Cálculo del Índice HQSL y generación ScoreCards de diagnóstico (Gráficos de Radar, mapas, etc.) por UPL |
-| **`8_Red_Ferrea.R`** | Generación de visualizaciones de la red férrea |
-| **`9_Misc.R`** | Generación de gráficos auxilares |
+| **`./R/0_Initialization.R`** | Installs / loads required libraries and custom functions |
+| **`./R/1_Empty_Shapes.R`** | Cleaning and standardization of spatial data (blocks, UPLs, etc.) |
+| **`./R/2_Population.R`** | Census data processing and population density projections |
+| **`./R/3_EM2023.R`** | Analysis of the 2023 Mobility Survey (travel patterns, modal split, etc.) |
+| **`./R/4_x_Amenities.R`** | Inventory, classification, and georeferencing of urban amenities |
+| **`./R/5_0_GTFS_Generator.R`** | **[Key Tool]** Algorithm for generating synthetic GTFS files for projected metro and rail lines |
+| **`./R/6_x_Accessibility.R`** | Execution of `r5r` for travel time matrix computation (baseline and future scenarios) |
+| **`./R/7_ScoreCard.R`** | HQSL index calculation and diagnostic scorecards (radar charts, maps, etc.) by UPL |
+| **`./R/8_Red_Ferrea.R`** | Rail network visualization generation |
+| **`./R/9_Misc.R`** | Auxiliary figures and plots |
 
-## 📂 Estructura de carpetas de archivos fuente, procesamiento y resultados
+---
 
-Este directorio (`.R/Data/`) almacena los insumos y resultados del proyecto, estructurados según el flujo de trabajo en R:
+## 📂 Estructura de Carpetas de Datos | Data Folder Structure
 
-| Carpeta | Descripción | Contenido Típico |
+Este directorio (`./R/Data/`) almacena los insumos y resultados del proyecto, estructurados según el flujo de trabajo en R.
+
+This directory (`./R/Data/`) stores all project inputs and outputs, structured according to the R workflow.
+
+| Folder | Description | Typical Content |
 | :--- | :--- | :--- |
-| **`./R/Data/1_Sources/`** | Datos fuente del Proyecto | Encuestas (DANE, Movilidad), Shapes, CSVs originales. |
-| **`./R/Data/2_Processing/`** | Datos intermedios | Archivos `.gpkg`, `.csv`, tablas limpias, uniones espaciales. |
-| **`./R/Data/3_Results/`** | Salidas finales | Mapas (`.png`), Gráficas (`.png`) y Tablas resumen. |
+| **`./R/Data/1_Sources/`** | Source data | Surveys (DANE, Mobility), shapefiles, original CSVs |
+| **`./R/Data/2_Processing/`** | Intermediate data | `.gpkg`, `.csv`, cleaned tables, spatial joins |
+| **`./R/Data/3_Results/`** | Final outputs | Maps (`.png`), charts (`.png`), summary tables |
 
-### 📥 Instrucciones para la Reproducibilidad
+---
 
-Debido al tamaño de los archivos (limitaciones de GitHub), esta carpeta no contiene archivos alojados en este repositorio. Los archivos fuente, han sido alojados en una carpeta externa en Google Drive.
+## 📥 Reproducibilidad | Reproducibility Instructions
+
+### Español
+Debido al tamaño de los archivos (limitaciones de GitHub), los datos no están alojados directamente en este repositorio. Los archivos fuente se encuentran disponibles en una carpeta externa de Google Drive.
 
 **Para ejecutar el código correctamente:**
-1. Descargue los archivos pesados desde el siguiente repositorio en la nube:
-   👉 **[Clic aquí para acceder a Google Drive](https://drive.google.com/drive/folders/1fvW1JFfZM1tjaLQHEzeKaqh4McILtFRQ?usp=sharing)** (Es necesario solititar permisos para ver).
+1. Descargue los archivos desde el siguiente enlace:  
+   👉 **[Acceso a Google Drive](https://drive.google.com/drive/folders/1fvW1JFfZM1tjaLQHEzeKaqh4McILtFRQ?usp=sharing)** *(se requiere solicitar permisos)*.
+2. Copie o descomprima los archivos en las carpetas correspondientes (`1_Sources`, `2_Processing`, `3_Results`).
+3. Mantenga los nombres originales de los archivos para asegurar la correcta ejecución de los scripts.
 
-3. Descomprima/copie los archivos descargados dentro de las carpetas correspondientes (`1_Sources`, `2_Processing`, o `3_Results`) en su copia local de este repositorio.
+### English
+Due to file size limitations on GitHub, data files are not hosted directly in this repository. Source data are available via an external Google Drive folder.
 
-4. Asegúrese de mantener los nombres de archivo originales para que los scripts de R los reconozcan.
+**To run the code correctly:**
+1. Download the files from the following link:  
+   👉 **[Access Google Drive](https://drive.google.com/drive/folders/1fvW1JFfZM1tjaLQHEzeKaqh4McILtFRQ?usp=sharing)** *(permission request required)*.
+2. Copy or extract the files into the appropriate folders (`1_Sources`, `2_Processing`, `3_Results`).
+3. Keep original file names to ensure script compatibility.
 
-## 🛠️ Requisitos e Instalación
+---
 
-**[R](https://cran.rstudio.com/)**: Versión 4.4.3.
+## 🛠️ Requisitos e Instalación | Requirements & Installation
 
-**[RStudio](https://posit.co/download/rstudio-desktop/)**: Versión 2026.01.0.
+- **R**: version 4.4.3  
+- **RStudio**: version 2026.01.0  
+- **Java Development Kit (JDK 21)** required for R5 routing engine
 
-Para ejecutar estos scripts, es necesario tener instalado **Java Development Kit (JDK 21)** instalado en su sistema para el funcionamiento de R5.
+All required R libraries are automatically installed and loaded via **`0_Initialization.R`**.
 
-Las librerías necesarias para la ejecución del proyecto, se instalarán y cargarán automáticamente a través del **`Script 0_Initialization`**
+---
 
-## 📝 Citación
-Si utiliza este código o metodología para su investigación, por favor cite:
-Silvera, Santiago (2026). _Transformando la Movilidad Urbana de Bogotá: Implementación e Integración del Sistema de Transporte Masivo Férreo y la Ciudad de Proximidad - Escala de Unidad de Planeación Local -_. [Technische Universität Berlin - Universidad de Buenos Aires]. Repositorio GitHub: https://github.com/ssilveram/Tesis_MPMU
+## 📝 Citación | Citation
 
-## 📜 Licencia
-Este proyecto está bajo la Licencia CC BY-NC 4.0 (Uso Académico y No Comercial). Vea el archivo **[Licence.md](./Licence.md)** para más detalles.
-Desarrollado como parte de la Maestría Dual en Planificación y Movilidad Urbana de la **[Technische Universität Berlin](https://www.tu.berlin)** y la **[Universidad de Buenos Aires](https://www.uba.ar)**.
+If you use this code or methodology, please cite:
 
+Silvera, Santiago (2026). *Transformando la Movilidad Urbana de Bogotá: Implementación e Integración del Sistema de Transporte Masivo Férreo y la Ciudad de Proximidad – Escala de Unidad de Planeación Local*.  
+Technische Universität Berlin – Universidad de Buenos Aires.  
+GitHub Repository: https://github.com/ssilveram/Tesis_MPMU
+
+---
+
+## 📜 Licencia | License
+
+Este proyecto se distribuye bajo la licencia **CC BY-NC 4.0 (Uso académico y no comercial)**.  
+This project is licensed under **CC BY-NC 4.0 (Academic and non-commercial use)**.
+
+See **[LICENSE.md](./LICENSE.md)** for full details.
+
+Desarrollado como parte de la Maestría Dual en Planificación y Movilidad Urbana de la  
+**[Technische Universität Berlin](https://www.tu.berlin)** y la **[Universidad de Buenos Aires](https://www.uba.ar)**.
