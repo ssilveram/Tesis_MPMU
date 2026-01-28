@@ -5,7 +5,7 @@
 ![Badge de Estado](https://img.shields.io/badge/Status-Completed-green)
 ![Badge de Licencia](https://img.shields.io/badge/License-CC%20BY--NC%204.0-lightgrey)
 
-> **Repositorio oficial de código para la Tesis de Maestría:**
+> **Repositorio oficial de código para la Tesis de Maestría:\n **
 > *"Transformando la Movilidad Urbana de Bogotá: Implementación e Integración del Sistema de Transporte Masivo Férreo y la Ciudad de Proximidad - Escala de Unidad de Planeación Local -"*
 
 <p align="center">
@@ -27,7 +27,7 @@ Este repositorio contiene el flujo de trabajo computacional completo para modela
 
 El proyecto utiliza **R** y el motor de enrutamiento **R5 (r5r)** para calcular matrices de tiempos de viaje multimodales y generar el índice **HQSL (High Quality Social Life)**.
 
-## 📂 Estructura del Repositorio
+## 📂 Estructura del Repositorio de Scripts
 
 El código está organizado secuencialmente para garantizar la reproducibilidad de los resultados:
 
@@ -44,7 +44,7 @@ El código está organizado secuencialmente para garantizar la reproducibilidad 
 | **`8_Red_Ferrea.R`** | Generación de visualizaciones de la red férrea |
 | **`9_Misc.R`** | Generación de gráficos auxilares |
 
-## Estructura de carpetas de archivos fuente, de procesamiento y de resultados
+## 📂 Estructura de carpetas de archivos fuente, procesamiento y resultados
 
 Este directorio (`.R/Data/`) almacena los insumos y resultados del proyecto, estructurados según el flujo de trabajo en R:
 
