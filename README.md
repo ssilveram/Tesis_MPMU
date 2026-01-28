@@ -13,7 +13,7 @@
 </p>
 
 ## 📄 Descripción
-Este repositorio contiene el flujo de trabajo computacional completo para modelar, simular y evaluar el impacto en la accesibilidad y el Índice de Alta Calidad de Vida Social, como resultado de la implementación de 6 escenarios futuros respecto al estado actual de la ciudad (Excenario base):
+Este repositorio contiene el flujo de trabajo computacional completo para modelar, simular y evaluar el impacto en la accesibilidad y el Índice de Alta Calidad de Vida Social (derivado del concepto de la "Ciudad de los 15 minutos"), como resultado de la implementación de 6 escenarios futuros respecto al estado actual de la ciudad (Escenario base):
 
 | Escenario | Descripción |
 | :--- | :--- |
